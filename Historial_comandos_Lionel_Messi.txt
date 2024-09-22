@@ -1,0 +1,30 @@
+cdls -la
+ls -la
+cd repogit/
+ls -la
+TP_1_AySO_Repaso/
+cd TP_1_AySO_Repaso/
+git add .
+git commit -m "ADD: Comando para capturar y analizar trafico de red."
+cat << EOF >> README.md
+Alumno: Lionel Messi
+División: 116
+Turno: Mañana
+EOF
+
+history -a
+ls ../
+ls ../.
+ls .../
+ls ../../
+ls home
+ls /home
+ls /home/vagrant
+ls /home/vagrant/repogit/
+ls $HOME
+cd ..
+ls -la
+cd repogit/
+cd TP_1_AySO_Repaso/
+cat ../../.bash_history 
+history -a 
